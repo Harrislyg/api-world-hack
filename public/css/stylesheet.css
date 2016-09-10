@@ -56,33 +56,26 @@ body {
 
 .home-div {
   padding-top: 20px;
-  width: 80%;
   margin: 0 auto;
 
 }
 
 #home-one {
-  height: 250px;
-  width: 47%;
-  margin-right: 10px;
+  height: 150px;
   margin-bottom: 10px;
   background-image: url('https://cdn2.hubspot.net/hub/235279/hubfs/images/business-data-supply.jpg?t=1470744397032&width=960&height=540');
   background-repeat:no-repeat;
   background-size:cover;
 }
 #home-two {
-  height: 250px;
-  width: 47%;
-  margin-left: 10px;
+  height: 150px;
   margin-bottom: 10px;
   background-image: url('http://picknotebook.com/blog/wp-content/uploads/2015/11/best-laptop-for-programming.jpg');
   background-repeat:no-repeat;
   background-size:cover;
 }
 #home-three {
-  height: 250px;
-  width: 47%;
-  margin-right: 10px;
+  height: 150px;
   margin-top: 10px;
   background-image: url('http://eee.hku.edu.tr/Dosyalar/18062015155232-img_index.jpg');
   background-repeat:no-repeat;
@@ -103,7 +96,7 @@ body {
   font-size: 2.3em;
   color: #fff;
   text-align: center;
-  line-height: 200px;
+  line-height: 150px;
   font-weight: 500;
 }
 
@@ -112,7 +105,7 @@ body {
   font-size: 2.3em;
   color: #fff;
   text-align: center;
-  line-height: 200px;
+  line-height: 150px;
   font-weight: 500;
 }
 

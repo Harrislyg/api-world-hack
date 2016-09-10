@@ -1,6 +1,5 @@
 var React = require('react')
 var Profiles = require('Profiles')
-var Banner = require('Banner')
 var Rolenav = require('Rolenav')
 
 var cofoundersApi = require('cofoundersApi')
@@ -37,7 +36,6 @@ class Biz extends React.Component {
     // console.log('Person', person)
     return (
       <div>
-        <Banner />
         <Rolenav person={this.state.profiles} />
         <div>
           {this.state.profiles.map((profile, i) => (<Profiles profile={profile} index={i} key={i}/>))}

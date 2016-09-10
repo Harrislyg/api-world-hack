@@ -16,9 +16,6 @@ var Signup = require('Signup')
 var About = require('About')
 var Nav = require('Nav')
 var Receipt = require('Receipt')
-var Dev = require('Dev')
-var Engineer = require('Engineer')
-var Designer = require('Designer')
 var Profile = require('Profile')
 var User = require('User')
 var Edituser = require('Edituser')
@@ -67,9 +64,6 @@ var routes = (
       <Route path="about" component={About} onEnter={authCheck}/>
       <Route path="signup" component={Signup}/>
       <Route path="Receipt" component={Receipt}/>
-      <Route path="Developer" component={Dev}/>
-      <Route path="Engineer" component={Engineer}/>
-      <Route path="Designer" component={Designer}/>
       <Route path="profile" component={Profile}/>
       <Route path="user" component={User} onEnter={authCheck}/>
       <Route path="Edituser" component={Edituser} onEnter={authCheck}/>
