@@ -139,17 +139,18 @@ body {
 }
 
 #profiles-left {
+  font-size: 6em;
   float: right;
   margin-top: 5px;
-  margin-left: 15px;
+  margin-right: 50px;
+
 }
 
 #profile-grid {
-  height: 300px;
+  height: 250px;
 }
 
 #profiles-bottom-left {
-  width: 50px;
   margin-top: 10px;
   clear: both;
   float: left;
@@ -170,7 +171,6 @@ body {
 }
 
 #profiles-bottom-right-extra {
-  width: 100px;
   padding-left: 15px;
   margin-top: 12px;
   margin-left: 10px;
@@ -189,10 +189,17 @@ body {
   color: #00BCD4;
 }
 
+.profiles-expertise-extra {
+  font-size: 3em;
+  font-weight: 500;
+  color: #484848;
+}
+
 #profiles-expertise-extra {
   font-size: 3em;
   font-weight: 500;
   color: #484848;
+  margin-left: 15px;
 }
 
 .profiles-btm {

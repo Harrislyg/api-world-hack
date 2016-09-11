@@ -45,7 +45,7 @@ class Profile extends React.Component {
 
   render () {
     return (
-      <div className="grid-gap2">
+      <div>
         <div className="mui-panel">
 
             <div className="floaton">

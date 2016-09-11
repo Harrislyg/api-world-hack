@@ -30,7 +30,7 @@ class Profiles extends React.Component {
 
           <div id="profiles-bottom-left">
             <div id="profiles-bottom-inner-left">
-              <p id="float-right profiles-partnerexpertise">Date: </p>
+              <p id="profiles-expertise-extra">Date: </p>
             </div>
           </div>
           <div id="profiles-bottom-right">
@@ -38,7 +38,7 @@ class Profiles extends React.Component {
           </div>
 
           <div id="profiles-bottom-right-extra">
-            <p id="profiles-partnerexpertise"><span className="glyphicon glyphicon-map-marker"></span>&nbsp;{this.props.profile.location}</p>
+            <p id="profiles-expertise-extra"><span className="glyphicon glyphicon-map-marker"></span>&nbsp;{this.props.profile.location}</p>
           </div>
 
 
@@ -50,9 +50,16 @@ class Profiles extends React.Component {
 
           <div id="right-float">
 
+
+
+
           <div id="profiles-left">
-            <h1>$17</h1>
+            <p>$17</p>
           </div>
+
+
+
+
 
           </div>
 

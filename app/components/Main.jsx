@@ -19,6 +19,7 @@ var Receipt = require('Receipt')
 var Profile = require('Profile')
 var User = require('User')
 var Edituser = require('Edituser')
+var Profilecamera = require('Profilecamera')
 
 
 injectTapEventPlugin()
@@ -65,8 +66,9 @@ var routes = (
       <Route path="signup" component={Signup}/>
       <Route path="Receipt" component={Receipt}/>
       <Route path="profile" component={Profile}/>
-      <Route path="user" component={User} onEnter={authCheck}/>
-      <Route path="Edituser" component={Edituser} onEnter={authCheck}/>
+      <Route path="user" component={User} />
+      <Route path="Edituser" component={Edituser} />
+      <Route path="Profilecamera" component={Profilecamera} />
 
     </Route>
   </Router>

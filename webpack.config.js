@@ -33,6 +33,7 @@ module.exports = {
       Profile: 'app/components/Profile.jsx',
       User: 'app/components/User.jsx',
       Edituser: 'app/components/Edituser.jsx',
+      Profilecamera: 'app/components/Profilecamera.jsx',
       cofoundersApi: 'app/api/cofoundersApi.jsx',
       applicationStyles: 'app/styles/challenge.css'
 
