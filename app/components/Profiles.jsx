@@ -14,15 +14,14 @@ class Profiles extends React.Component {
   render () {
     return (
       <div id="hoverCursor" onClick={this.onUserProfile.bind(this)}>
+
+
         <div id="grid-gap" className="mui-col-md-12">
           <div id="profile-grid" className="profile-grid mui-panel">
 
 
 
           <div id="left-float">
-
-
-
 
           <div id="profiles-right">
             <p id="profiles-expertise">{this.props.profile.expertise}</p>
@@ -41,34 +40,21 @@ class Profiles extends React.Component {
             <p id="profiles-expertise-extra"><span className="glyphicon glyphicon-map-marker"></span>&nbsp;{this.props.profile.location}</p>
           </div>
 
-
-
           </div>
 
 
-
-
           <div id="right-float">
-
-
-
 
           <div id="profiles-left">
             <p>$17</p>
           </div>
 
-
-
-
-
           </div>
-
-
-
-
 
           </div>
         </div>
+
+
 
       </div>
 
