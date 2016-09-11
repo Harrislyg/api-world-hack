@@ -6,8 +6,8 @@ class Photos extends React.Component {
 
   render () {
     return (
-      <div>
-        <img id="preview" ref="preview" src={"/Users/harrisleow/Desktop/NOCHacks/api-world-hack/public/images/" + this.props.photo.name}/>
+      <div id="flex-item">
+        <img id="preview" ref="preview" src={"http://imgur.com/" + this.props.photo.name}/>
       </div>
     )
   }

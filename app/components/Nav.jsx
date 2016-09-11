@@ -62,14 +62,13 @@ class Nav extends React.Component {
         <span className="icon-bar"></span>
         <span className="icon-bar"></span>
       </button>
-      <a className="navbar-brand navbar-font" id="logo" href="/">RECEIPTLESS</a>
+      <a className="navbar-brand navbar-font" id="logo" href="/">R</a>
     </div>
 
     <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
       <ul className="nav navbar-nav navbar-right">
-        <li><Link className="navbar-font nav-element" to="/login">{this.state.login}</Link></li>
-        <li><Link className="navbar-font nav-element" to="/signup">{this.state.signup}</Link></li>
+
         <li style={{display: this.state.display}}><Link id="nav-profile" to="/user"><img className="img-responsive" src={window.localStorage.profileImg} height="30" width="30" /></Link></li>
         <li style={{display: this.state.display}}><Link className="navbar-font nav-element" to="/user">{window.localStorage.name}</Link></li>
         <li onClick={this.onLogout.bind(this)} style={{display: this.state.display}}><Link className="navbar-font nav-element" to="#">LOGOUT</Link></li>

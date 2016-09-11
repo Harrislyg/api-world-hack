@@ -41,8 +41,10 @@ console.log(photoArray);
           <div className="mui-panel">
             <legend>Upload</legend>
             <p><br/></p>
-            {photoArray.map((photo, i) => (<Photos photo={photo} index={i} key={i}/>))}
 
+          <div id="flexBox">
+            {photoArray.map((photo, i) => (<Photos photo={photo} index={i} key={i}/>))}
+          </div>
             <p><br/></p>
             <input onChange={this.photoUpload.bind(this)} type="file" multiple="multiple" accept="image/*;capture=camera" />
         <form id="signUpForm" onSubmit={this.onGenerate.bind(this)}>

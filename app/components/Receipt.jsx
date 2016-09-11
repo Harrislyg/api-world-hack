@@ -36,7 +36,6 @@ class Biz extends React.Component {
     // console.log('Person', person)
     return (
       <div>
-        <Rolenav person={this.state.profiles} />
         <div>
 
                   <div id="grid-gap" className="mui-col-md-12">
