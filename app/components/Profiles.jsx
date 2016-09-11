@@ -14,27 +14,51 @@ class Profiles extends React.Component {
   render () {
     return (
       <div id="hoverCursor" onClick={this.onUserProfile.bind(this)}>
-        <div id="grid-gap" className="mui-col-md-4">
-          <div className="profile-grid mui-panel">
-          <div id="profiles-picture"><img className="img-responsive" src={this.props.profile.profileImg} height="120" width="120"/></div>
+        <div id="grid-gap" className="mui-col-md-12">
+          <div id="profile-grid" className="profile-grid mui-panel">
+
+
+
+          <div id="left-float">
+
+
+
+
           <div id="profiles-right">
-            <p id="profiles-name">{this.props.profile.name}</p>
             <p id="profiles-expertise">{this.props.profile.expertise}</p>
-            <p id="profiles-location"><span className="glyphicon glyphicon-map-marker"></span>&nbsp;{this.props.profile.location}</p>
           </div>
+
           <div id="profiles-bottom-left">
             <div id="profiles-bottom-inner-left">
-
-              <p id="float-right profiles-partnerexpertise">LOOKING FOR: </p>
-              <p id="profiles-partnerworkexp">EXPERIENCE: </p>
-              <p id="profiles-partnerskills">SKILLS: </p>
+              <p id="float-right profiles-partnerexpertise">Date: </p>
             </div>
           </div>
           <div id="profiles-bottom-right">
-            <p id="profiles-partnerexpertise">{this.props.profile.partnerexpertise}</p>
-            <p id="profiles-partnerworkexp">{this.props.profile.partnerworkexp}</p>
-            <p id="profiles-partnerskills">{this.props.profile.partnerskills}</p>
+            <p id="profiles-expertise-extra">{this.props.profile.partnerexpertise}</p>
           </div>
+
+          <div id="profiles-bottom-right-extra">
+            <p id="profiles-partnerexpertise"><span className="glyphicon glyphicon-map-marker"></span>&nbsp;{this.props.profile.location}</p>
+          </div>
+
+
+
+          </div>
+
+
+
+
+          <div id="right-float">
+
+          <div id="profiles-left">
+            <h1>$17</h1>
+          </div>
+
+          </div>
+
+
+
+
 
           </div>
         </div>

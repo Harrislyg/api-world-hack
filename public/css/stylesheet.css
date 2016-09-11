@@ -138,18 +138,42 @@ body {
   margin-left: 15px;
 }
 
+#profiles-left {
+  float: right;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+#profile-grid {
+  height: 300px;
+}
+
 #profiles-bottom-left {
-  width: 120px;
+  width: 50px;
   margin-top: 10px;
   clear: both;
   float: left;
 }
 
+#right-float {
+  float: right;
+}
+#left-float {
+  float: left;
+}
+
 
 #profiles-bottom-right {
+  margin-left: 5px;
+  margin-top: 10px;
+  float: left;
+}
+
+#profiles-bottom-right-extra {
   width: 100px;
   padding-left: 15px;
-  margin-top: 10px;
+  margin-top: 12px;
+  margin-left: 10px;
   float: left;
 }
 
@@ -160,9 +184,15 @@ body {
 }
 
 #profiles-expertise {
-  font-size: 1.4em;
+  font-size: 5em;
   font-weight: 500;
   color: #00BCD4;
+}
+
+#profiles-expertise-extra {
+  font-size: 3em;
+  font-weight: 500;
+  color: #484848;
 }
 
 .profiles-btm {
