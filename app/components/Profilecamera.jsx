@@ -41,7 +41,6 @@ console.log(photoArray);
           <div className="mui-panel">
             <legend>Upload</legend>
             <p><br/></p>
-            <img id="preview" ref="preview" src="/images/default.png"/>
             {photoArray.map((photo, i) => (<Photos photo={photo} index={i} key={i}/>))}
 
             <p><br/></p>
