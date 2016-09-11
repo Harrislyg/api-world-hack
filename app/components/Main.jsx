@@ -20,6 +20,8 @@ var Profile = require('Profile')
 var User = require('User')
 var Edituser = require('Edituser')
 var Profilecamera = require('Profilecamera')
+var Photos = require('Photos')
+
 
 
 injectTapEventPlugin()
@@ -69,6 +71,8 @@ var routes = (
       <Route path="user" component={User} />
       <Route path="Edituser" component={Edituser} />
       <Route path="Profilecamera" component={Profilecamera} />
+      <Route path="Photos" component={Photos} />
+
 
     </Route>
   </Router>
